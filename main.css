@@ -1,0 +1,47 @@
+.main-container {
+	max-width: 960px;
+	margin: auto;
+}
+
+.site-menu,
+.sidebar {
+	width: 20%;
+}
+
+
+.main-content {
+	width: 60%;
+	background-color: lightpink;
+}
+
+.site-menu,
+.main-content,
+.sidebar {
+	float: left;
+}
+
+.site-menu {
+	background-color: lightgoldenrodyellow;
+}
+
+.sidebar {
+	background-color: lightsteelblue;
+}
+
+article figure img {
+	width: 100%;
+	border: 3px solid black;
+	padding: 3px;
+}
+
+header h1 {
+	color: white;
+}
+
+header p {
+	color: white;
+	background-color: lightgreen;
+}
+ body{
+ 	font-family: verdana;
+ }
