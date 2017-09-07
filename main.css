@@ -1,3 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div, nav, p, aside {
+	display: block;
+	box-sizing: border-box;
+}
+
 .main-container {
 	max-width: 960px;
 	margin: auto;
@@ -8,6 +18,10 @@
 	width: 100%;
 }
 
+.site-menu {
+	padding: 10px 0;
+}
+
 .main-content {
 	background-color: lightpink;
 	padding: 0 15px;
@@ -16,18 +30,17 @@
 
 .site-menu,
 .main-content {
-	float: left;
+	
 }
 
-.sidebar {
-	float: right;
-}
 
 .site-menu {
+	padding: 15px 30px;
 	background-color: lightgoldenrodyellow;
 }
 
 .sidebar {
+	padding: 15px;
 	background-color: lightsteelblue;
 }
 
@@ -51,6 +64,15 @@ header p {
 
 
 @media (min-width:1024px) {
+	.site-menu,
+	.main-content  {
+		float: left;
+	}
+
+	.sidebar {
+		float: right;
+	}
+
 	.site-menu,
 	.sidebar {
 		width: 20%;
