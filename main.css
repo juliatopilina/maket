@@ -5,19 +5,22 @@
 
 .site-menu,
 .sidebar {
-	width: 20%;
+	width: 100%;
 }
 
-
 .main-content {
-	width: 60%;
 	background-color: lightpink;
+	padding: 0 15px;
+	box-sizing: border-box;
 }
 
 .site-menu,
-.main-content,
-.sidebar {
+.main-content {
 	float: left;
+}
+
+.sidebar {
+	float: right;
 }
 
 .site-menu {
@@ -45,3 +48,17 @@ header p {
  body{
  	font-family: verdana;
  }
+
+
+@media (min-width:1024px) {
+	.site-menu,
+	.sidebar {
+		width: 20%;
+	}
+
+	.main-content {
+		width: 60%;
+	}
+}
+
+
